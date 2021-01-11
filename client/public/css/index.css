@@ -1,0 +1,16 @@
+body{
+    background-color:#f3f3f3;   
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.backgrnd {
+    background-image: url("../images/background.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,50 @@
+.heading{
+    font-size:50px;
+    text-align:center;
+    font-family: FF Tisa Sans;
+}
+.home{
+    font-size: 22px;
+    text-align:center;
+    padding:2% 0% 0% 0%; 
+    text-align: right;
+}
+.aboutus{
+    font-size: 22px;
+    text-align:center;
+    padding:2% 0% 0% 0%; 
+}
+
+.home:hover{
+    color:hsl(12, 92%, 61%);
+}
+
+.login{
+    font-size: 20px;
+    padding:2% 0.5% 0% 0.5%;
+    text-align:center;
+}
+.loginbtn{
+    font-size: 18px;
+    color:white;
+    border-color:hsl(12, 92%, 61%);
+    background-color:hsl(12, 92%, 61%);
+}
+
+.loginbtn::selection{
+    outline: none;
+}
+
+@media only screen and (max-width: 720px) {
+    .home{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+}
+
+.checked {
+    color: orange;
+
+  }

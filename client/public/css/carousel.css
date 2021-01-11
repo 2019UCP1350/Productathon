@@ -1,0 +1,21 @@
+.bttn-container{
+    position:absolute;
+    bottom:20%;
+    Left:15%
+}
+
+.fstext{
+    font-size:30px;
+}
+
+@media only screen and (max-width: 720px) {
+    .bttn-container{
+        position:absolute;
+        bottom:10%;
+        Left:15%
+    }
+    .fstext{
+        font-size:20px;
+    }
+}
+

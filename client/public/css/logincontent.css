@@ -1,0 +1,35 @@
+.login-content{
+    position: absolute;
+    bottom:0;
+}
+
+.fs{
+    font-size:20px;
+}
+
+.bcl{
+    color:#ffffff;
+    background-color:hsl(12, 92%, 61%);
+}
+
+.fsi{
+    font-size:35px;
+    margin-left:2%;
+}
+
+.sign-up{
+    font-size: 30px;
+}
+.input{
+    font-size:20px;
+}
+.bcl:hover {
+    box-shadow: 0px 5px 7px 5px hsl(12, 75%, 73%);
+    border-color:hsl(12, 92%, 61%);
+}
+
+.hrl{
+    height:2px;
+    color:#f8f9fa;
+    background-color:#f8f9fa;
+}
