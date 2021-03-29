@@ -20,7 +20,7 @@ const Right=({text,title,setFlag,history})=>{
                 </button>
             </div>
             )}
-            appId="2103805646417204"
+            appId="enter app Id"
             fields="name,email,picture"
             callback={
                 (response)=>{
@@ -44,7 +44,7 @@ const Right=({text,title,setFlag,history})=>{
                 </button>
             </div>
             )}
-            clientId="870886731117-fuegv3n016k4tumtd8kngc8gsc3ipmic.apps.googleusercontent.com" 
+            clientId="Enter app id" 
             onSuccess={
                     (response)=>{
                         title==="Login"?
