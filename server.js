@@ -15,7 +15,7 @@ app.use(cors());
 
 app.use(authRoutes);
 
-const mongoUri="mongodb+srv://bit-by-bit:3002826917@login.sfkbg.mongodb.net/<dbname>?retryWrites=true&w=majority"
+const mongoUri="enter mongo DB uri";
 
 mongoose.connect(process.env.ATLAS_URI || mongoUri,{         
 	useNewUrlParser:true,			
